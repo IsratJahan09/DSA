@@ -5,9 +5,9 @@ using namespace std;
 const int N=1005;
 //int d[N][N],pref[N][N];
 float knapsack(float profit[],float weight[],int n,float cap){
-    int i;
+    int i;          // initially i;
     float a[n],tp=0;
-    for( i=0;i<n;i++)
+    for( i=0;i<n;i++)      // not declar int 
     a[i]=0.0;
     float u=cap;
     for(i=0;i<n;i++){
@@ -69,6 +69,8 @@ int main()
    knapsack(profit,weight,n,capacity);
     return 0;
 }
+// time-O(NlogN)
+
 /*
 # include<stdio.h>
 void knapsack(int n, float weight[], float profit[], float capacity){
