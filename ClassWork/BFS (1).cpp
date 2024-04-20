@@ -67,7 +67,29 @@ int main()
 
     return 0;
 }
+/*
+input
+7 6
+0 1
+0 2
+1 3
+1 4
+2 5
+2 6
+0
+*/
 
+/*output
+queue is: 0 1 2 3 4 5 6 
+from source node 0 :
+distance of 0 is : 0
+distance of 1 is : 1
+distance of 2 is : 1
+distance of 3 is : 2
+distance of 4 is : 2
+distance of 5 is : 2
+distance of 6 is : 2
+    */
 
 // #include <bits/stdc++.h>
 // using namespace std;
