@@ -1,4 +1,14 @@
-// User function template for C++
+/*Question:
+Given an array arr of positive integers and another number x. Determine whether two elements exist in arr whose sum is exactly x or not. 
+Return a boolean value true if two elements exist in arr else return false.
+Examples:
+Input: x = 16, arr[] = [1, 4, 45, 6, 10, 8]
+Output: true
+Explanation: arr[3] + arr[4] = 6 + 10 = 16
+
+
+Answer:
+*/
 class Solution {
   public:
     // Function to check if array has 2 elements
