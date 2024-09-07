@@ -29,3 +29,23 @@ class Solution {
         return false;
     }
 };
+
+// if find index then
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int n = nums.size();
+        unordered_map<int, int>us;
+        vector<int>v;
+        for(int i = 0; i<n; i++){
+            int com = target-nums[i];
+
+            if(us.find(com)!=us.end()){
+                v.push_back(i);
+                v.push_back(us[com]);
+            }
+            us[nums[i]]= i;
+        }
+        return v;
+    }
+};
