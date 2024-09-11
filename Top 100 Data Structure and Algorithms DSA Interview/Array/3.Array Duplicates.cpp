@@ -48,3 +48,4 @@ class Solution {
     }
 };
 
+//Leetcode 442 problme is similar- you can try
