@@ -9,7 +9,7 @@ strs[] = [“geeksforgeeks”, “geeks”, “geek”, “geezer”] <br>
 gee
 <hr>
 <h3>Explanation:</h3>
-“gee” is the longest common prefix in all the given strings.
+“gee” is the longest common prefix in all the given strings. <br>
 <strong>Input : </strong>
 strs[] = [“hello”, “world”]
 <strong>Output : </strong>
