@@ -10,8 +10,9 @@ gee
 <hr>
 <h3>Explanation:</h3>
 “gee” is the longest common prefix in all the given strings. <br>
+<h3>Example</h3>
 <strong>Input : </strong>
-strs[] = [“hello”, “world”]
+strs[] = [“hello”, “world”] <br>
 <strong>Output : </strong>
 -1
 <h3>Explanation:</h3>
