@@ -1,17 +1,20 @@
-<h1>Question:</h1> <br>
-<p>Given the head of a linked list, the task is to reverse this list and return the reversed head..
-<hr>
+# Question:
 
-<h3>Example</h3>
-<strong>Input : </strong>
-Linked List = 1 -> 2 -> 3 -> 4 -> NULL <br>
-<strong>Output : </strong>
+Given the head of a linked list, the task is to reverse this list and return the reversed head.
+
+---
+
+### Example:
+**Input:**  
+Linked List = 1 -> 2 -> 3 -> 4 -> NULL  
+**Output:**  
 Reversed Linked List = 4 -> 3 -> 2 -> 1 -> NULL
-<hr>
-<h3>Explanation:</h3>
-![image](https://github.com/user-attachments/assets/2efce159-59f2-4439-9992-ed11917ba468)
 
+---
 
-</p> <br>
+### Explanation:
+![Explanation of Reverse Linked List](https://raw.githubusercontent.com/Israt-1234/DSA/main/Top%20100%20Data%20Structure%20and%20Algorithms%20DSA%20Interview/Linked%20List/1.Reverse%20a%20Linked%20List/blobid2_1718700706.png)
 
-<p>Happy Codding</p>😊💻
+---
+
+Happy Coding! 😊💻
