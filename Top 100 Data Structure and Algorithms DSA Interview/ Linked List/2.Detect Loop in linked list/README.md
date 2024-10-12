@@ -1,4 +1,5 @@
-##Question
+**Question**
+---
 <p>
   Given the head of a singly linked list, the task is to check if the linked list has a loop. A loop means that the last node of the linked list is connected back to a node in the same list.  So if the next of the last node is null. then there is no loop.
 
@@ -9,13 +10,22 @@ A LinkedList and a pos (1-based index)-Position of the node to which the last no
 ---
 **Examples**:
 
-**Input**: LinkedList: 1->3->4
+**Input**: LinkedList: 1->3->4 <br>
 **Output**: true
 ---
-##Explanation: <br>
+Explanation: <br>
    ![image](https://github.com/user-attachments/assets/6234a1ad-3829-4bcc-9e65-8dee7bfcb5a0)
 
-See the above list there exists a loop connecting the last node back to the second node.
-</p>
+See the above list there exists a loop connecting the last node back to the second node. <br> 
 ---
-##Happy coding💻😊
+Input: LinkedList: 1->8->3->4 <br>
+Output: false <br>
+---
+Explanation: <br>
+![image](https://github.com/user-attachments/assets/9c3488ba-5597-44d3-80a3-01e4ac05d542)
+<br>
+There is no loop exists.
+---
+</p>
+
+Happy coding💻😊
