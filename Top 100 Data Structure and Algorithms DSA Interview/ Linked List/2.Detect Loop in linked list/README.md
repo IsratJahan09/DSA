@@ -6,15 +6,16 @@
 
 The following is an internal representation of every test case (three inputs).
 A LinkedList and a pos (1-based index)-Position of the node to which the last node links back if there is a loop. If the linked list does not have any loop, then pos = 0.
-
+---
 **Examples**:
 
 **Input**: LinkedList: 1->3->4
 **Output**: true
-##Explanation: 
+---
+##Explanation: <br>
    ![image](https://github.com/user-attachments/assets/6234a1ad-3829-4bcc-9e65-8dee7bfcb5a0)
 
 See the above list there exists a loop connecting the last node back to the second node.
 </p>
-
+---
 ##Happy coding💻😊
