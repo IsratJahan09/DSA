@@ -19,8 +19,10 @@ The bottom-most element will be 10 and the top-most element will be 50. Middle e
 ---
 <p>Input: stack = [10, 20, 30, 40]
 Output: [10, 30, 40]
+<hr>
 Explanation: The bottom-most element will be 10 and the top-most element will be 40. Middle element will be element at index 2 from bottom, which is 20. Deleting 20, stack will look like {10 30 40}.
 </p>
----
+
+<hr>
 
 Happy Coding! 😊💻
