@@ -245,6 +245,15 @@ vector<ll> m = {3, 4, 5};
 cout << chineseRemainder(a, m);  // Output: 11
 ```
 ---
+Find the minimum value of x+y 
+
+                                   x` = x+ k*(b/g);
+                                   y` = y- k*(a/g);
+now, x+y              
+
+                                x`+y` = x+y+k*(b-a)/g;
+If a < b , we need to select smallest possible value of  k . If a > b , we need to select the largest possible value of k . If  a = b, all solution will have the same sum x + y .
+---
 
 ## Applications
 - **Finding Modular Inverses** in Cryptography
